@@ -5,8 +5,8 @@ body {
 }
 .heading {
   background-image: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
     ),
     url("BG.jpg");
   background-position: center;
@@ -25,8 +25,32 @@ h2 {
   text-align: center;
 }
 
+@keyframes color-change {
+  15% {
+    color: red;
+  }
+  30% {
+    color: orange;
+  }
+  45% {
+    color: yellow;
+  }
+  60% {
+    color: green;
+  }
+  75% {
+    color: blue;
+  }
+  90% {
+    color: purple;
+  }
+}
+
 h1 {
-  background-color: azure;
+  animation-name: color-change;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 
 h2 {
