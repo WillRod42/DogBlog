@@ -3,5 +3,9 @@ $(document).ready(function() {
     $("body").toggleClass("light-theme");
     $("body").toggleClass("dark-theme");
   });
+
+  $("span").click(function() {
+    $(this).toggleClass("highlight");
+  });
 });
 

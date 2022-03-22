@@ -75,3 +75,7 @@ img {
   display: block;
   margin: auto;
 }
+
+.highlight {
+  background-color: yellowgreen;
+}
