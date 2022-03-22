@@ -1,8 +1,3 @@
-body {
-  background-color: azure;
-  font-size: 30px;
-  font-family: "Segoe UI";
-}
 .heading {
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.7),
@@ -16,6 +11,20 @@ body {
 .main {
   width: 60%;
   margin: auto;
+}
+
+.light-theme {
+  background-color: azure;
+  font-size: 30px;
+  font-family: "Segoe UI";
+  color: black;
+}
+
+.dark-theme {
+  background-color: rgb(23, 39, 39);
+  font-size: 30px;
+  font-family: "Segoe UI";
+  color: white;
 }
 
 h1,
